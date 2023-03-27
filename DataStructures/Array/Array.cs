@@ -2,7 +2,7 @@
 
 namespace Array
 {
-    public class Array 
+    public class Array : IEnumerable
     {
         private Object[] _InnerArray;
         private int index = 0;
@@ -38,11 +38,11 @@ namespace Array
             return _InnerArray[position];
         }
 
-        public Object Find(Object item)
+        public int Find(Object item)
         {
             for (int i = 0; i < _InnerArray.Length; i++)
             {
-                if (item == _InnerArray[i])
+                if (item.Equals(_InnerArray[i]))
                 {
                     return i;
                 }
@@ -79,6 +79,11 @@ namespace Array
             return temp;
 
             
+        }
+
+        public IEnumerator GetEnumerator()
+        {
+            return _InnerArray.GetEnumerator();
         }
     }
 

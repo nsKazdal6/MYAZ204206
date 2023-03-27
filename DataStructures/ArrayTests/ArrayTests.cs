@@ -168,5 +168,22 @@ namespace ArrayTests
             }
         }
 
+        [Fact]
+        public void Array_GetEnumerator_Test()
+        {
+            var array = new Array.Array();
+            array.Add("Ahmet");
+            array.Add("Fatma");
+            array.Add("Elif");
+
+            string result = "";
+            foreach (var item in array)
+            {
+                result = string.Concat(result, item);
+            }
+
+            Assert.Equal(result, "AhmetFatmaElif");
+        }
+
     }
 }
