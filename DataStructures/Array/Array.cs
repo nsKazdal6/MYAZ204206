@@ -13,7 +13,14 @@ namespace Array
         {
             _InnerArray = new Object[4];
         }
-        
+
+        public Array(params Object[] init)
+        {
+            var newArray = new Object[init.Length];
+            System.Array.Copy(init, newArray, init.Length);
+            _InnerArray = newArray;
+        }
+
         public void Add(Object item)
         {
             if (index == _InnerArray.Length)
@@ -36,6 +43,12 @@ namespace Array
             if (position<0 || position >= _InnerArray.Length)
                 throw new IndexOutOfRangeException();
             return _InnerArray[position];
+        }
+
+        public void SetItem(int position, Object item)
+        {
+            _InnerArray[position] = item;
+
         }
 
         public int Find(Object item)
@@ -85,6 +98,7 @@ namespace Array
         {
             return _InnerArray.GetEnumerator();
         }
+ 
     }
 
 }

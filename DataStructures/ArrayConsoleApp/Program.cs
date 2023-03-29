@@ -1,4 +1,14 @@
-﻿
+﻿var names = new Array.Array("Ahmet", "Fatma", "Elif");
+
+names.SetItem(2, "Kader");
+
+foreach (var name in names)
+{
+    Console.WriteLine(name);
+}
+
+
+
 
 var array = new Array.Array();
 

@@ -185,5 +185,32 @@ namespace ArrayTests
             Assert.Equal(result, "AhmetFatmaElif");
         }
 
+        [Fact]
+        public void Array_Counter_Test()
+        {
+            var array = new Array.Array(36,23,55,44,61);
+
+            var result = array.Capacity;
+            var result2 = String.Empty;
+            foreach (var item in array)
+            {
+                result2 = string.Concat(result2, item);
+            }
+
+            Assert.Equal(5,result);
+            Assert.Equal("3623554461", result2);
+        }
+
+        [Fact]
+        public void Array_SetItem_Test()
+        {
+            var numbers = new Array.Array(2,5,7,9);
+
+            numbers.SetItem(2, 53);
+
+            Assert.Equal(53,numbers.GetItem(2));
+            Assert.True((int)numbers.GetItem(2) == 53);
+
+        }
     }
 }
