@@ -47,6 +47,8 @@ namespace Array
 
         public void SetItem(int position, Object item)
         {
+            if (position < 0 || position >= _InnerArray.Length)
+                throw new IndexOutOfRangeException();
             _InnerArray[position] = item;
 
         }
@@ -70,16 +72,7 @@ namespace Array
             _InnerArray[p2] = temp;
         }
 
-        public Object RemoveItem(int position)
-        {
-            var item =GetItem(position);
-            if (item != null)
-            {
-                _InnerArray[position] = null;
-                return item;
-            }
-            return -1;
-        }
+        
         public Object Remove()
         {
             if (index == 0)
@@ -98,6 +91,41 @@ namespace Array
         {
             return _InnerArray.GetEnumerator();
         }
+
+        public Object RemoveItem(int position)
+        {
+            if (position < 0 || position >= _InnerArray.Length)
+                throw new IndexOutOfRangeException();
+            var item = _InnerArray[position];
+            _InnerArray[position] = null;
+            for (int i = 0; i < _InnerArray.Length-1; i++)
+            {
+              Swap(i, i + 1);  
+            }
+            index--;
+            if (index == _InnerArray.Length/2)
+            {
+                var newArray = new Object[_InnerArray.Length / 2];
+                System.Array.Copy(_InnerArray, newArray, newArray.Length);
+                _InnerArray = newArray;
+
+            }
+            return item;
+            
+        }
+        public Object[] Copy(int v1, int v2)
+        {
+            var newArray = new Object[v2];
+            int j = 0;
+            for (int i = v1; i < v2; i++)
+            {
+                newArray[j] = GetItem(i);
+                j++;
+            }
+            return newArray;
+        }
+
+        
  
     }
 

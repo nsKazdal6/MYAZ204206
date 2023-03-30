@@ -1,3 +1,4 @@
+using Array;
 using System.Diagnostics.CodeAnalysis;
 using System.Security.Cryptography.X509Certificates;
 
@@ -121,12 +122,17 @@ namespace ArrayTests
             var array=new Array.Array();
             array.Add(0);
             array.Add(1);
-
-            var item1 =array.RemoveItem(0);
-            var item2 =array.RemoveItem(2);
-
-            Assert.Equal(item1, 0);
-            Assert.Equal(item2, -1);
+            array.Add(2);
+            array.Add(3);
+            array.Add(4);
+       
+            var item1 =array.RemoveItem(2);
+            var item2 =array.GetItem(2);
+            array.RemoveItem(3);
+       
+            Assert.Equal(item1, 2);
+            Assert.Equal(item2, 3);
+            Assert.Equal(4, array.Capacity);
         }
 
         [Fact]
@@ -211,6 +217,17 @@ namespace ArrayTests
             Assert.Equal(53,numbers.GetItem(2));
             Assert.True((int)numbers.GetItem(2) == 53);
 
+        }
+
+        [Fact]
+        public void Array_Copy_Test()
+        {
+            var array = new Array.Array("Ahmet","Fatma","Elif","Kader");
+
+            var newArray = array.Copy(2, 3);
+            var item = newArray[0];
+
+            Assert.Equal("Elif", item);
         }
     }
 }
