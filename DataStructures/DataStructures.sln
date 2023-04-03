@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayConsoleApp", "ArrayConsoleApp\ArrayConsoleApp.csproj", "{24113511-4916-416D-94DD-AF24ECE1E46D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayConsoleApp", "ArrayConsoleApp\ArrayConsoleApp.csproj", "{24113511-4916-416D-94DD-AF24ECE1E46D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array", "Array\Array.csproj", "{7FC5EB72-06EF-424A-9B09-7A4D3F0E32E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Array", "Array\Array.csproj", "{7FC5EB72-06EF-424A-9B09-7A4D3F0E32E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayTests", "ArrayTests\ArrayTests.csproj", "{B143F627-E54D-4C4B-98C3-E025493DC88E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayTests", "ArrayTests\ArrayTests.csproj", "{B143F627-E54D-4C4B-98C3-E025493DC88E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionsConsoleApp", "CollectionsConsoleApp\CollectionsConsoleApp.csproj", "{67EAC1CE-770E-4218-846C-46E857C304F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionTests", "CollectionTests\CollectionTests.csproj", "{BAFC5407-97AE-4FBA-AB95-3F015398CE2E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{B143F627-E54D-4C4B-98C3-E025493DC88E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B143F627-E54D-4C4B-98C3-E025493DC88E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B143F627-E54D-4C4B-98C3-E025493DC88E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67EAC1CE-770E-4218-846C-46E857C304F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67EAC1CE-770E-4218-846C-46E857C304F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67EAC1CE-770E-4218-846C-46E857C304F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67EAC1CE-770E-4218-846C-46E857C304F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAFC5407-97AE-4FBA-AB95-3F015398CE2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAFC5407-97AE-4FBA-AB95-3F015398CE2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAFC5407-97AE-4FBA-AB95-3F015398CE2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAFC5407-97AE-4FBA-AB95-3F015398CE2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
