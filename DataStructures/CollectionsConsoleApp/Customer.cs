@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace CollectionsConsoleApp
 {
-    internal class Customer
+    public class Customer
     {
+        public int Id { get; set; }
+        public String? FullName { get; set; } = String.Empty;
     }
 }

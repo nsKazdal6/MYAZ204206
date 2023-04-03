@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionsConsoleApp", "Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionTests", "CollectionTests\CollectionTests.csproj", "{BAFC5407-97AE-4FBA-AB95-3F015398CE2E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "List", "List\List.csproj", "{E3F1EE45-07E3-4EC3-86B3-8050D787525D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListTests", "ListTests\ListTests.csproj", "{6719FB05-0C30-42A1-B68D-9BF53D8F657E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{BAFC5407-97AE-4FBA-AB95-3F015398CE2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAFC5407-97AE-4FBA-AB95-3F015398CE2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BAFC5407-97AE-4FBA-AB95-3F015398CE2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3F1EE45-07E3-4EC3-86B3-8050D787525D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3F1EE45-07E3-4EC3-86B3-8050D787525D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3F1EE45-07E3-4EC3-86B3-8050D787525D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3F1EE45-07E3-4EC3-86B3-8050D787525D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6719FB05-0C30-42A1-B68D-9BF53D8F657E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6719FB05-0C30-42A1-B68D-9BF53D8F657E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6719FB05-0C30-42A1-B68D-9BF53D8F657E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6719FB05-0C30-42A1-B68D-9BF53D8F657E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
