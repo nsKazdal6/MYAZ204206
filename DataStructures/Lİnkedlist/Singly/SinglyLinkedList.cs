@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata.Ecma335;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -9,7 +10,7 @@ namespace Linkedlist.Singly
     public class SinglyLinkedList<T>
     {
         public SinglyLinkedListNode<T>? Head { get; set; }
-
+        public int Count { get; set; }
         public SinglyLinkedList()
         {
 
@@ -74,6 +75,107 @@ namespace Linkedlist.Singly
                 current = current.Next;
             }
             throw new Exception("The node could not be found int the linked list.");
+
+        }
+        public void AddAfter(SinglyLinkedListNode<T> node , T item)
+        {
+            if (Head == null)
+            {
+                AddFirst(item);
+                return;
+            }
+            var newnode = new SinglyLinkedListNode<T>(item);
+            var current = Head;
+            
+            while (current != null)
+            {
+                if (current.Equals(node))
+                {
+                    newnode.Next = current.Next;
+                    current.Next = newnode;
+                    return;
+                }
+                
+                current = current.Next;
+            }
+            throw new Exception("The node could not be found int the linked list.");
+
+
+        }
+        public T RemoveFirst()
+        {
+            if (Head == null)
+            {
+                throw new Exception("The node could not be found int the linked list.");
+            }
+            if (Head.Next==null)
+            {
+                var item = Head.Value;
+                Head = null;
+                return item;
+            }
+            else
+            {
+                var item = Head.Value;
+                Head =Head.Next;
+                return item;
+            }
+        }
+        public T RemoveLast()
+        {
+            if (Head == null)
+            {
+                throw new Exception("The node could not be found int the linked list.");
+            }
+            if (Head.Next == null)
+            {
+                var item = Head.Value;
+                Head = null;
+                return item;
+            }
+            else
+            {
+                var current = Head;
+                while (current!=null)
+                {
+                    if (current.Next.Next==null)
+                    {
+                        var item = current.Next.Value;
+                        current.Next = null;
+                        return item;
+                    }
+                    current = current.Next;
+                }
+                throw new Exception();
+            }
+        }
+        public T Remove(SinglyLinkedListNode<T> node)
+        {
+            if (Head == null)
+            {
+                throw new Exception("The node could not be found int the linked list.");
+            }
+            else if (Head.Value.Equals(node.Value))
+            {
+                var item = Head.Value;
+                Head = null;
+                return item;
+            }
+            else
+            {
+                var current = Head;
+                while (current!=null) 
+                {
+                    if (current.Next.Value.Equals(node.Value))
+                    {
+                        var item = current.Next.Value;
+                        current.Next = current.Next.Next;
+                        return item;
+                    }
+                    current = current.Next;
+                }
+                throw new Exception();
+            }
 
         }
 
