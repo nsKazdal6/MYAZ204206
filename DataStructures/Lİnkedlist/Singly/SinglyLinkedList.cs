@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection.Metadata.Ecma335;
@@ -7,13 +8,20 @@ using System.Threading.Tasks;
 
 namespace Linkedlist.Singly
 {
-    public class SinglyLinkedList<T>
+    public class SinglyLinkedList<T> :IEnumerable<T>
     {
         public SinglyLinkedListNode<T>? Head { get; set; }
         public int Count { get; set; }
         public SinglyLinkedList()
         {
 
+        }
+        public SinglyLinkedList(IEnumerable<T> collection)
+        {
+            foreach (var item in collection)
+            {
+                AddFirst(item);
+            }
         }
         public void AddFirst(T item)
         {
@@ -164,7 +172,7 @@ namespace Linkedlist.Singly
             else
             {
                 var current = Head;
-                while (current!=null) 
+                while (current.Next!=null) 
                 {
                     if (current.Next.Value.Equals(node.Value))
                     {
@@ -174,10 +182,17 @@ namespace Linkedlist.Singly
                     }
                     current = current.Next;
                 }
-                throw new Exception();
+                throw new Exception("Node not found.");
             }
 
         }
-
+        public IEnumerator<T> GetEnumerator()
+        {
+            return new SinglyLinkedListEnumerator<T>(Head);
+        }
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return GetEnumerator();
+        }
     }
 }

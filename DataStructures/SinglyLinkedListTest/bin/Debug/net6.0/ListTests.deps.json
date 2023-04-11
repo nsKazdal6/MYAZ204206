@@ -6,17 +6,16 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "SinglyLinkedListTests/1.0.0": {
+      "ListTests/1.0.0": {
         "dependencies": {
-          "Linkedlist": "1.0.0",
-          "ListTests": "1.0.0",
+          "List": "1.0.0",
           "Microsoft.NET.Test.Sdk": "17.3.2",
           "coverlet.collector": "3.1.2",
           "xunit": "2.4.2",
           "xunit.runner.visualstudio": "2.4.5"
         },
         "runtime": {
-          "SinglyLinkedListTests.dll": {}
+          "ListTests.dll": {}
         }
       },
       "coverlet.collector/3.1.2": {},
@@ -1091,30 +1090,15 @@
         }
       },
       "xunit.runner.visualstudio/2.4.5": {},
-      "Linkedlist/1.0.0": {
-        "runtime": {
-          "Linkedlist.dll": {}
-        }
-      },
       "List/1.0.0": {
         "runtime": {
           "List.dll": {}
-        }
-      },
-      "ListTests/1.0.0": {
-        "dependencies": {
-          "List": "1.0.0",
-          "Microsoft.NET.Test.Sdk": "17.3.2",
-          "xunit": "2.4.2"
-        },
-        "runtime": {
-          "ListTests.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "SinglyLinkedListTests/1.0.0": {
+    "ListTests/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -1763,17 +1747,7 @@
       "path": "xunit.runner.visualstudio/2.4.5",
       "hashPath": "xunit.runner.visualstudio.2.4.5.nupkg.sha512"
     },
-    "Linkedlist/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "List/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "ListTests/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

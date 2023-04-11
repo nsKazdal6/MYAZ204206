@@ -1818,6 +1818,31 @@
         "runtime": {
           "bin/placeholder/Linkedlist.dll": {}
         }
+      },
+      "List/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/List.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/List.dll": {}
+        }
+      },
+      "ListTests/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "List": "1.0.0",
+          "Microsoft.NET.Test.Sdk": "17.3.2",
+          "xunit": "2.4.2"
+        },
+        "compile": {
+          "bin/placeholder/ListTests.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ListTests.dll": {}
+        }
       }
     }
   },
@@ -6118,11 +6143,22 @@
       "type": "project",
       "path": "../Lİnkedlist/Linkedlist.csproj",
       "msbuildProject": "../Lİnkedlist/Linkedlist.csproj"
+    },
+    "List/1.0.0": {
+      "type": "project",
+      "path": "../List/List.csproj",
+      "msbuildProject": "../List/List.csproj"
+    },
+    "ListTests/1.0.0": {
+      "type": "project",
+      "path": "../ListTests/ListTests.csproj",
+      "msbuildProject": "../ListTests/ListTests.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Linkedlist >= 1.0.0",
+      "ListTests >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.3.2",
       "coverlet.collector >= 3.1.2",
       "xunit >= 2.4.2",
@@ -6156,6 +6192,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Users\\Menemen\\Desktop\\VeriYapılarıveAlgoritmalar\\DataStructures\\ListTests\\ListTests.csproj": {
+              "projectPath": "C:\\Users\\Menemen\\Desktop\\VeriYapılarıveAlgoritmalar\\DataStructures\\ListTests\\ListTests.csproj"
+            },
             "C:\\Users\\Menemen\\Desktop\\VeriYapılarıveAlgoritmalar\\DataStructures\\Lİnkedlist\\Linkedlist.csproj": {
               "projectPath": "C:\\Users\\Menemen\\Desktop\\VeriYapılarıveAlgoritmalar\\DataStructures\\Lİnkedlist\\Linkedlist.csproj"
             }

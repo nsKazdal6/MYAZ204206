@@ -100,3 +100,9 @@ C:\Users\Menemen\Desktop\VeriYapılarıveAlgoritmalar\DataStructures\SinglyLinke
 C:\Users\Menemen\Desktop\VeriYapılarıveAlgoritmalar\DataStructures\SinglyLinkedListTest\obj\Debug\net6.0\SinglyLinkedListTests.pdb
 C:\Users\Menemen\Desktop\VeriYapılarıveAlgoritmalar\DataStructures\SinglyLinkedListTest\obj\Debug\net6.0\SinglyLinkedListTests.genruntimeconfig.cache
 C:\Users\Menemen\Desktop\VeriYapılarıveAlgoritmalar\DataStructures\SinglyLinkedListTest\obj\Debug\net6.0\ref\SinglyLinkedListTests.dll
+C:\Users\Menemen\Desktop\VeriYapılarıveAlgoritmalar\DataStructures\SinglyLinkedListTest\bin\Debug\net6.0\ListTests.deps.json
+C:\Users\Menemen\Desktop\VeriYapılarıveAlgoritmalar\DataStructures\SinglyLinkedListTest\bin\Debug\net6.0\ListTests.runtimeconfig.json
+C:\Users\Menemen\Desktop\VeriYapılarıveAlgoritmalar\DataStructures\SinglyLinkedListTest\bin\Debug\net6.0\List.dll
+C:\Users\Menemen\Desktop\VeriYapılarıveAlgoritmalar\DataStructures\SinglyLinkedListTest\bin\Debug\net6.0\ListTests.dll
+C:\Users\Menemen\Desktop\VeriYapılarıveAlgoritmalar\DataStructures\SinglyLinkedListTest\bin\Debug\net6.0\ListTests.pdb
+C:\Users\Menemen\Desktop\VeriYapılarıveAlgoritmalar\DataStructures\SinglyLinkedListTest\bin\Debug\net6.0\List.pdb

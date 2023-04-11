@@ -156,17 +156,85 @@ namespace SinglyLinkedListTests
             Assert.Throws<Exception>(() => linkedList.RemoveLast());
         }
         [Fact]
-        public void SinglyLinkedList_Remove_Test()
+        public void SinglyLinkedList_Remove_LastItem_Test()
         {
-            var newnode = new SinglyLinkedListNode<char>('c');
-            var linkedList =new SinglyLinkedList<char>();
-            linkedList.AddFirst('a');
-            linkedList.AddFirst('b');
-            linkedList.AddFirst('c');
+            var linkedList = new SinglyLinkedList<char>();
+            linkedList.AddFirst('a');   
+            linkedList.AddFirst('b');   
+            linkedList.AddFirst('c');   
 
-            var item1 = linkedList.Remove(newnode);
+            var node = new SinglyLinkedListNode<char>('a');
+
+            var item1 = linkedList.Remove(node);
+
+            Assert.Equal('a', item1);
+        }
+
+        [Fact]
+        public void SinglyLinkedList_Remove_MiddleItem_Test()
+        {
+            var linkedList = new SinglyLinkedList<char>();
+            linkedList.AddFirst('a');  
+            linkedList.AddFirst('b');   
+            linkedList.AddFirst('c');   
+
+            var node = new SinglyLinkedListNode<char>('b');
+
+            var item1 = linkedList.Remove(node);
+
+            Assert.Equal('b', item1);
+        }
+
+        [Fact]
+        public void SinglyLinkedList_Remove_FirstItem_Test()
+        {
+            var linkedList = new SinglyLinkedList<char>();
+            linkedList.AddFirst('a');   
+            linkedList.AddFirst('b');   
+            linkedList.AddFirst('c');   
+
+            var node = new SinglyLinkedListNode<char>('c');
+
+            var item1 = linkedList.Remove(node);
 
             Assert.Equal('c', item1);
+        }
+
+        [Fact]
+        public void SinglyLinkedList_Remove_Exception_Test()
+        {
+            
+            var linkedList = new SinglyLinkedList<char>();
+
+            var node = new SinglyLinkedListNode<char>('b');
+
+            Assert.Throws<Exception>(() => linkedList.Remove(node));
+        }
+        [Fact]
+        public void SinglyLinkedList_Remove_Exception2_Test()
+        {
+            var linkedList = new SinglyLinkedList<char>();
+            linkedList.AddFirst('a');   
+            linkedList.AddFirst('b');   
+            linkedList.AddFirst('c');   
+
+            var node = new SinglyLinkedListNode<char>('x');
+
+            Assert.Throws<Exception>(() => linkedList.Remove(node));
+
+        }
+        [Fact]
+        public void SinglyLinkedList_Get_Enumerator_Test()
+        {
+            var list = new SinglyLinkedList<char>("rize".ToArray());
+
+            Assert.Collection<char>(list,
+                item => Assert.Equal('e', item),
+                item => Assert.Equal('z', item),
+                item => Assert.Equal('i', item),
+                item => Assert.Equal('r', item));
+
+
         }
     }
 }
