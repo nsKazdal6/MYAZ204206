@@ -10,8 +10,9 @@ namespace Linkedlist.Singly
 {
     public class SinglyLinkedList<T> :IEnumerable<T>
     {
+        private int _count = 0;
         public SinglyLinkedListNode<T>? Head { get; set; }
-        public int Count { get; set; }
+        public int Count => _count;
         public SinglyLinkedList()
         {
 
@@ -32,10 +33,12 @@ namespace Linkedlist.Singly
             if (Head == null)
             {
                 Head = node;
+                _count++;
                 return;
             }
             node.Next= Head;
             Head = node;
+            _count++;
             return;
         }
         public void AddLast(T item)
@@ -48,6 +51,7 @@ namespace Linkedlist.Singly
             if (Head == null)
             {
                 Head = node;
+                _count++;
                 return;
             }
 
@@ -59,6 +63,7 @@ namespace Linkedlist.Singly
                 current = current.Next;
             }
             prev.Next= node;
+            _count++;
             return;
         }
         public void AddBefore(SinglyLinkedListNode<T> node , T item)
@@ -77,6 +82,7 @@ namespace Linkedlist.Singly
                 {
                     newnode.Next = prev.Next;
                     prev.Next = newnode;
+                    _count++;
                     return;
                 }
                 prev = current;
@@ -101,6 +107,7 @@ namespace Linkedlist.Singly
                 {
                     newnode.Next = current.Next;
                     current.Next = newnode;
+                    _count++;
                     return;
                 }
                 
@@ -120,12 +127,14 @@ namespace Linkedlist.Singly
             {
                 var item = Head.Value;
                 Head = null;
+                _count--;
                 return item;
             }
             else
             {
                 var item = Head.Value;
                 Head =Head.Next;
+                _count--;
                 return item;
             }
         }
@@ -139,6 +148,7 @@ namespace Linkedlist.Singly
             {
                 var item = Head.Value;
                 Head = null;
+                _count--;
                 return item;
             }
             else
@@ -150,6 +160,7 @@ namespace Linkedlist.Singly
                     {
                         var item = current.Next.Value;
                         current.Next = null;
+                        _count--;
                         return item;
                     }
                     current = current.Next;
@@ -167,6 +178,7 @@ namespace Linkedlist.Singly
             {
                 var item = Head.Value;
                 Head = null;
+                _count--;
                 return item;
             }
             else
@@ -178,7 +190,8 @@ namespace Linkedlist.Singly
                     {
                         var item = current.Next.Value;
                         current.Next = current.Next.Next;
-                        return item;
+                        _count--;
+                        return item;    
                     }
                     current = current.Next;
                 }
