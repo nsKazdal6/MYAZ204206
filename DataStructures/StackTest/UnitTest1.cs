@@ -47,5 +47,15 @@ namespace StackTest
             Assert.Equal("Berra", result);
 
         }
+        [Fact]
+        public void LinkedListStack_Constructor_IEnumerable_Test()
+        {
+            var stack = new ArrayStack<int>(new List<int> { 1, 2, 3 });
+
+            var result = stack.Peek();
+
+            Assert.Equal(3, stack.Count);
+            Assert.Equal(3, result);
+        }
     }
 }

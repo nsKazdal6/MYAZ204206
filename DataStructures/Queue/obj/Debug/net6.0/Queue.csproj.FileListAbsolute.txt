@@ -1,0 +1,15 @@
+C:\Users\Menemen\Desktop\VeriYapılarıveAlgoritmalar\DataStructures\Queue\bin\Debug\net6.0\Queue.deps.json
+C:\Users\Menemen\Desktop\VeriYapılarıveAlgoritmalar\DataStructures\Queue\bin\Debug\net6.0\Queue.dll
+C:\Users\Menemen\Desktop\VeriYapılarıveAlgoritmalar\DataStructures\Queue\bin\Debug\net6.0\Queue.pdb
+C:\Users\Menemen\Desktop\VeriYapılarıveAlgoritmalar\DataStructures\Queue\bin\Debug\net6.0\Linkedlist.dll
+C:\Users\Menemen\Desktop\VeriYapılarıveAlgoritmalar\DataStructures\Queue\bin\Debug\net6.0\Linkedlist.pdb
+C:\Users\Menemen\Desktop\VeriYapılarıveAlgoritmalar\DataStructures\Queue\obj\Debug\net6.0\Queue.csproj.AssemblyReference.cache
+C:\Users\Menemen\Desktop\VeriYapılarıveAlgoritmalar\DataStructures\Queue\obj\Debug\net6.0\Queue.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Menemen\Desktop\VeriYapılarıveAlgoritmalar\DataStructures\Queue\obj\Debug\net6.0\Queue.AssemblyInfoInputs.cache
+C:\Users\Menemen\Desktop\VeriYapılarıveAlgoritmalar\DataStructures\Queue\obj\Debug\net6.0\Queue.AssemblyInfo.cs
+C:\Users\Menemen\Desktop\VeriYapılarıveAlgoritmalar\DataStructures\Queue\obj\Debug\net6.0\Queue.csproj.CoreCompileInputs.cache
+C:\Users\Menemen\Desktop\VeriYapılarıveAlgoritmalar\DataStructures\Queue\obj\Debug\net6.0\Queue.csproj.CopyComplete
+C:\Users\Menemen\Desktop\VeriYapılarıveAlgoritmalar\DataStructures\Queue\obj\Debug\net6.0\Queue.dll
+C:\Users\Menemen\Desktop\VeriYapılarıveAlgoritmalar\DataStructures\Queue\obj\Debug\net6.0\refint\Queue.dll
+C:\Users\Menemen\Desktop\VeriYapılarıveAlgoritmalar\DataStructures\Queue\obj\Debug\net6.0\Queue.pdb
+C:\Users\Menemen\Desktop\VeriYapılarıveAlgoritmalar\DataStructures\Queue\obj\Debug\net6.0\ref\Queue.dll

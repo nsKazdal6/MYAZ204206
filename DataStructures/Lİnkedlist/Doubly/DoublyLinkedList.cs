@@ -15,7 +15,15 @@ namespace Linkedlist.Doubly
 
         public DoublyLinkedList()
         {
-            this.isHeadNull = isHeadNull;
+            this.isHeadNull = true;
+        }
+        public DoublyLinkedList(IEnumerable<T> collection)
+        {
+            isHeadNull = true;
+            foreach (var item in collection)
+            {
+                AddLast(item);
+            }
         }
         public void AddFirst(T item)
         {
@@ -63,14 +71,24 @@ namespace Linkedlist.Doubly
             Head = Head.Next;
             return item;
         }
+        public T RemoveLast()
+        {
+            if (isHeadNull)
+                throw new Exception("The linked list is empty!");
+
+            T item = Tail.Value;
+            Tail = Tail.Prev;
+            Tail.Next = null;
+            return item;
+        }
         public IEnumerator<T> GetEnumerator()
         {
-            throw new NotImplementedException();
+            return new DbLinkedListEnumerator<T>(Head, Tail);
         }
 
         IEnumerator IEnumerable.GetEnumerator()
         {
-            throw new NotImplementedException();
+            return GetEnumerator();
         }
     }
 }

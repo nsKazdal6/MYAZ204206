@@ -15,6 +15,13 @@ namespace Stackk
         {
             _innerList= new SinglyLinkedList<T>();
         }
+        public LinkedListStack(IEnumerable<T>collection):this()
+        {
+            foreach (var item in collection)
+            {
+                Push(item);
+            }
+        }
         public int Count => _innerList.Count ;
         
         public T Peek()
