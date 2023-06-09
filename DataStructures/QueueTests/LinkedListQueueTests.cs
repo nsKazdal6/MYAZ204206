@@ -6,6 +6,7 @@ namespace QueueTests
     {
         [Theory]
         [InlineData(5)]
+        [InlineData(15)]
         public void LinkedListQueue_EnQueue(int item)
         {
             var queue = new LinkedListQueue<int>();
@@ -19,6 +20,7 @@ namespace QueueTests
         }
         [Theory]
         [InlineData(5)]
+        [InlineData(15)]
         public void LinkedListQueue_DeQueue(int item)
         {
             var queue = new LinkedListQueue<int>();
@@ -34,6 +36,7 @@ namespace QueueTests
         }
         [Theory]
         [InlineData(5)]
+        [InlineData(15)]
         public void LinkedListQueue_Peek(int item)
         {
             var queue = new LinkedListQueue<int>();

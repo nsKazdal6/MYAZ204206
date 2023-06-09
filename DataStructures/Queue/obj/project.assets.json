@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Menemen\\Desktop\\VeriYapılarıveAlgoritmalar\\DataStructures\\Queue\\Queue.csproj",
+      "projectUniqueName": "C:\\Users\\Menemen\\Desktop\\VeriYapıları\\MYAZ204206\\DataStructures\\Queue\\Queue.csproj",
       "projectName": "Queue",
-      "projectPath": "C:\\Users\\Menemen\\Desktop\\VeriYapılarıveAlgoritmalar\\DataStructures\\Queue\\Queue.csproj",
+      "projectPath": "C:\\Users\\Menemen\\Desktop\\VeriYapıları\\MYAZ204206\\DataStructures\\Queue\\Queue.csproj",
       "packagesPath": "C:\\Users\\Menemen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Menemen\\Desktop\\VeriYapılarıveAlgoritmalar\\DataStructures\\Queue\\obj\\",
+      "outputPath": "C:\\Users\\Menemen\\Desktop\\VeriYapıları\\MYAZ204206\\DataStructures\\Queue\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Menemen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Menemen\\Desktop\\VeriYapılarıveAlgoritmalar\\DataStructures\\Lİnkedlist\\Linkedlist.csproj": {
-              "projectPath": "C:\\Users\\Menemen\\Desktop\\VeriYapılarıveAlgoritmalar\\DataStructures\\Lİnkedlist\\Linkedlist.csproj"
+            "C:\\Users\\Menemen\\Desktop\\VeriYapıları\\MYAZ204206\\DataStructures\\Lİnkedlist\\Linkedlist.csproj": {
+              "projectPath": "C:\\Users\\Menemen\\Desktop\\VeriYapıları\\MYAZ204206\\DataStructures\\Lİnkedlist\\Linkedlist.csproj"
             }
           }
         }

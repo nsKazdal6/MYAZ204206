@@ -10,3 +10,15 @@ C:\Users\Menemen\Desktop\VeriYapılarıveAlgoritmalar\DataStructures\Array\obj\D
 C:\Users\Menemen\Desktop\VeriYapılarıveAlgoritmalar\DataStructures\Array\obj\Debug\net6.0\refint\Array.dll
 C:\Users\Menemen\Desktop\VeriYapılarıveAlgoritmalar\DataStructures\Array\obj\Debug\net6.0\Array.pdb
 C:\Users\Menemen\Desktop\VeriYapılarıveAlgoritmalar\DataStructures\Array\obj\Debug\net6.0\ref\Array.dll
+C:\Users\Menemen\Desktop\VeriYapıları\MYAZ204206\DataStructures\Array\bin\Debug\net6.0\Array.deps.json
+C:\Users\Menemen\Desktop\VeriYapıları\MYAZ204206\DataStructures\Array\bin\Debug\net6.0\Array.dll
+C:\Users\Menemen\Desktop\VeriYapıları\MYAZ204206\DataStructures\Array\bin\Debug\net6.0\Array.pdb
+C:\Users\Menemen\Desktop\VeriYapıları\MYAZ204206\DataStructures\Array\obj\Debug\net6.0\Array.csproj.AssemblyReference.cache
+C:\Users\Menemen\Desktop\VeriYapıları\MYAZ204206\DataStructures\Array\obj\Debug\net6.0\Array.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Menemen\Desktop\VeriYapıları\MYAZ204206\DataStructures\Array\obj\Debug\net6.0\Array.AssemblyInfoInputs.cache
+C:\Users\Menemen\Desktop\VeriYapıları\MYAZ204206\DataStructures\Array\obj\Debug\net6.0\Array.AssemblyInfo.cs
+C:\Users\Menemen\Desktop\VeriYapıları\MYAZ204206\DataStructures\Array\obj\Debug\net6.0\Array.csproj.CoreCompileInputs.cache
+C:\Users\Menemen\Desktop\VeriYapıları\MYAZ204206\DataStructures\Array\obj\Debug\net6.0\Array.dll
+C:\Users\Menemen\Desktop\VeriYapıları\MYAZ204206\DataStructures\Array\obj\Debug\net6.0\refint\Array.dll
+C:\Users\Menemen\Desktop\VeriYapıları\MYAZ204206\DataStructures\Array\obj\Debug\net6.0\Array.pdb
+C:\Users\Menemen\Desktop\VeriYapıları\MYAZ204206\DataStructures\Array\obj\Debug\net6.0\ref\Array.dll

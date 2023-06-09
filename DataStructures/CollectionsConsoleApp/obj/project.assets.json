@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Menemen\\Desktop\\VeriYapılarıveAlgoritmalar\\DataStructures\\CollectionsConsoleApp\\CollectionsConsoleApp.csproj",
+      "projectUniqueName": "C:\\Users\\Menemen\\Desktop\\VeriYapıları\\MYAZ204206\\DataStructures\\CollectionsConsoleApp\\CollectionsConsoleApp.csproj",
       "projectName": "CollectionsConsoleApp",
-      "projectPath": "C:\\Users\\Menemen\\Desktop\\VeriYapılarıveAlgoritmalar\\DataStructures\\CollectionsConsoleApp\\CollectionsConsoleApp.csproj",
+      "projectPath": "C:\\Users\\Menemen\\Desktop\\VeriYapıları\\MYAZ204206\\DataStructures\\CollectionsConsoleApp\\CollectionsConsoleApp.csproj",
       "packagesPath": "C:\\Users\\Menemen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Menemen\\Desktop\\VeriYapılarıveAlgoritmalar\\DataStructures\\CollectionsConsoleApp\\obj\\",
+      "outputPath": "C:\\Users\\Menemen\\Desktop\\VeriYapıları\\MYAZ204206\\DataStructures\\CollectionsConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Menemen\\AppData\\Roaming\\NuGet\\NuGet.Config",

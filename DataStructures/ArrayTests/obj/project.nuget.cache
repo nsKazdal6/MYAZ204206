@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MD42REH4SvYVsn2ksaz6AgxM3lBm0w9JFIMvhuwO4Nm49jfyLcXkbXIA7pvgOiPKC9Q8cj5SLm8apiUZDgSXwQ==",
+  "dgSpecHash": "bwFSm8ixszavW34CR5SE76kmtLX6fDqK7fxF1mkKq+7619AD5OaZ86cDqRPn9TEESSoNOw8a3hWb4/iqwBSrkg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Menemen\\Desktop\\VeriYapılarıveAlgoritmalar\\DataStructures\\ArrayTests\\ArrayTests.csproj",
+  "projectFilePath": "C:\\Users\\Menemen\\Desktop\\VeriYapıları\\MYAZ204206\\DataStructures\\ArrayTests\\ArrayTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Menemen\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\Menemen\\.nuget\\packages\\microsoft.codecoverage\\17.3.2\\microsoft.codecoverage.17.3.2.nupkg.sha512",
