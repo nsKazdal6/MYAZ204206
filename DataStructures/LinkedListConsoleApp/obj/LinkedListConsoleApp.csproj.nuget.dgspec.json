@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Menemen\\Desktop\\Yeni klasör\\MYAZ204206\\DataStructures\\LinkedListConsoleApp\\LinkedListConsoleApp.csproj": {}
+    "C:\\Users\\Menemen\\Desktop\\veri_yapıları\\MYAZ204206\\DataStructures\\LinkedListConsoleApp\\LinkedListConsoleApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Menemen\\Desktop\\Yeni klasör\\MYAZ204206\\DataStructures\\LinkedListConsoleApp\\LinkedListConsoleApp.csproj": {
+    "C:\\Users\\Menemen\\Desktop\\veri_yapıları\\MYAZ204206\\DataStructures\\LinkedListConsoleApp\\LinkedListConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Menemen\\Desktop\\Yeni klasör\\MYAZ204206\\DataStructures\\LinkedListConsoleApp\\LinkedListConsoleApp.csproj",
+        "projectUniqueName": "C:\\Users\\Menemen\\Desktop\\veri_yapıları\\MYAZ204206\\DataStructures\\LinkedListConsoleApp\\LinkedListConsoleApp.csproj",
         "projectName": "LinkedListConsoleApp",
-        "projectPath": "C:\\Users\\Menemen\\Desktop\\Yeni klasör\\MYAZ204206\\DataStructures\\LinkedListConsoleApp\\LinkedListConsoleApp.csproj",
+        "projectPath": "C:\\Users\\Menemen\\Desktop\\veri_yapıları\\MYAZ204206\\DataStructures\\LinkedListConsoleApp\\LinkedListConsoleApp.csproj",
         "packagesPath": "C:\\Users\\Menemen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Menemen\\Desktop\\Yeni klasör\\MYAZ204206\\DataStructures\\LinkedListConsoleApp\\obj\\",
+        "outputPath": "C:\\Users\\Menemen\\Desktop\\veri_yapıları\\MYAZ204206\\DataStructures\\LinkedListConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Menemen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Menemen\\Desktop\\Yeni klasör\\MYAZ204206\\DataStructures\\Lİnkedlist\\Linkedlist.csproj": {
-                "projectPath": "C:\\Users\\Menemen\\Desktop\\Yeni klasör\\MYAZ204206\\DataStructures\\Lİnkedlist\\Linkedlist.csproj"
+              "C:\\Users\\Menemen\\Desktop\\veri_yapıları\\MYAZ204206\\DataStructures\\Lİnkedlist\\Linkedlist.csproj": {
+                "projectPath": "C:\\Users\\Menemen\\Desktop\\veri_yapıları\\MYAZ204206\\DataStructures\\Lİnkedlist\\Linkedlist.csproj"
               }
             }
           }
@@ -63,14 +63,14 @@
         }
       }
     },
-    "C:\\Users\\Menemen\\Desktop\\Yeni klasör\\MYAZ204206\\DataStructures\\Lİnkedlist\\Linkedlist.csproj": {
+    "C:\\Users\\Menemen\\Desktop\\veri_yapıları\\MYAZ204206\\DataStructures\\Lİnkedlist\\Linkedlist.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Menemen\\Desktop\\Yeni klasör\\MYAZ204206\\DataStructures\\Lİnkedlist\\Linkedlist.csproj",
+        "projectUniqueName": "C:\\Users\\Menemen\\Desktop\\veri_yapıları\\MYAZ204206\\DataStructures\\Lİnkedlist\\Linkedlist.csproj",
         "projectName": "Linkedlist",
-        "projectPath": "C:\\Users\\Menemen\\Desktop\\Yeni klasör\\MYAZ204206\\DataStructures\\Lİnkedlist\\Linkedlist.csproj",
+        "projectPath": "C:\\Users\\Menemen\\Desktop\\veri_yapıları\\MYAZ204206\\DataStructures\\Lİnkedlist\\Linkedlist.csproj",
         "packagesPath": "C:\\Users\\Menemen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Menemen\\Desktop\\Yeni klasör\\MYAZ204206\\DataStructures\\Lİnkedlist\\obj\\",
+        "outputPath": "C:\\Users\\Menemen\\Desktop\\veri_yapıları\\MYAZ204206\\DataStructures\\Lİnkedlist\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Menemen\\AppData\\Roaming\\NuGet\\NuGet.Config",

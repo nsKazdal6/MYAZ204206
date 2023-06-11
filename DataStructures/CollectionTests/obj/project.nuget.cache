@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ee1VZX/LOXnLuQE5VHPhrLVa9K2FWeQBxakm6N4gA7GyMfc9q/RNQT//Ot5e+aUK8DH7PHE0FE68qmmZuaS5zQ==",
+  "dgSpecHash": "Na4QdG1F1h+SVBWMqVZgm7EFzjSRQWJVukWIvsEIURNikDc7N5uXtH1yvGdJFEfKAAVyJqOa+w9Wmpzes3Z1Mg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Menemen\\Desktop\\Yeni klasör\\MYAZ204206\\DataStructures\\CollectionTests\\CollectionTests.csproj",
+  "projectFilePath": "C:\\Users\\Menemen\\Desktop\\veri_yapıları\\MYAZ204206\\DataStructures\\CollectionTests\\CollectionTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Menemen\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\Menemen\\.nuget\\packages\\microsoft.codecoverage\\17.3.2\\microsoft.codecoverage.17.3.2.nupkg.sha512",

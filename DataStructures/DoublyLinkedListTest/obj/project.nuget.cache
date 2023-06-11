@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TffLs+qyvQEdR5ADtu3eWxYG1Vn4Pr5Cw66r7VKhDYH4zburGXWkU83kz6a8sBQPeXSvKtsFCGyRmlk3V0PkVA==",
+  "dgSpecHash": "bPf/xpgt9xEqSDEJBU7Dy0UDoD2MPAFsNCd58/m1aQ8Im5Fr/+KZDmJYD+HwTJbP/Y1bWAM+5pd1jta2GkGkig==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Menemen\\Desktop\\Yeni klasör\\MYAZ204206\\DataStructures\\DoublyLinkedListTest\\DoublyLinkedListTest.csproj",
+  "projectFilePath": "C:\\Users\\Menemen\\Desktop\\veri_yapıları\\MYAZ204206\\DataStructures\\DoublyLinkedListTest\\DoublyLinkedListTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Menemen\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\Menemen\\.nuget\\packages\\microsoft.codecoverage\\17.3.2\\microsoft.codecoverage.17.3.2.nupkg.sha512",

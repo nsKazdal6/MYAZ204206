@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Menemen\\Desktop\\Yeni klasör\\MYAZ204206\\DataStructures\\RecursiveApp\\RecursiveApp.csproj": {}
+    "C:\\Users\\Menemen\\Desktop\\veri_yapıları\\MYAZ204206\\DataStructures\\RecursiveApp\\RecursiveApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Menemen\\Desktop\\Yeni klasör\\MYAZ204206\\DataStructures\\RecursiveApp\\RecursiveApp.csproj": {
+    "C:\\Users\\Menemen\\Desktop\\veri_yapıları\\MYAZ204206\\DataStructures\\RecursiveApp\\RecursiveApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Menemen\\Desktop\\Yeni klasör\\MYAZ204206\\DataStructures\\RecursiveApp\\RecursiveApp.csproj",
+        "projectUniqueName": "C:\\Users\\Menemen\\Desktop\\veri_yapıları\\MYAZ204206\\DataStructures\\RecursiveApp\\RecursiveApp.csproj",
         "projectName": "RecursiveApp",
-        "projectPath": "C:\\Users\\Menemen\\Desktop\\Yeni klasör\\MYAZ204206\\DataStructures\\RecursiveApp\\RecursiveApp.csproj",
+        "projectPath": "C:\\Users\\Menemen\\Desktop\\veri_yapıları\\MYAZ204206\\DataStructures\\RecursiveApp\\RecursiveApp.csproj",
         "packagesPath": "C:\\Users\\Menemen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Menemen\\Desktop\\Yeni klasör\\MYAZ204206\\DataStructures\\RecursiveApp\\obj\\",
+        "outputPath": "C:\\Users\\Menemen\\Desktop\\veri_yapıları\\MYAZ204206\\DataStructures\\RecursiveApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Menemen\\AppData\\Roaming\\NuGet\\NuGet.Config",

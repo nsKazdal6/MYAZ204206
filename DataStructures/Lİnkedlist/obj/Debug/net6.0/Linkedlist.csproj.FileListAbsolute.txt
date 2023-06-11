@@ -22,3 +22,15 @@ C:\Users\Menemen\Desktop\VeriYapıları\MYAZ204206\DataStructures\Lİnkedlist\ob
 C:\Users\Menemen\Desktop\VeriYapıları\MYAZ204206\DataStructures\Lİnkedlist\obj\Debug\net6.0\refint\Linkedlist.dll
 C:\Users\Menemen\Desktop\VeriYapıları\MYAZ204206\DataStructures\Lİnkedlist\obj\Debug\net6.0\Linkedlist.pdb
 C:\Users\Menemen\Desktop\VeriYapıları\MYAZ204206\DataStructures\Lİnkedlist\obj\Debug\net6.0\ref\Linkedlist.dll
+C:\Users\Menemen\Desktop\veri_yapıları\MYAZ204206\DataStructures\Lİnkedlist\bin\Debug\net6.0\Linkedlist.deps.json
+C:\Users\Menemen\Desktop\veri_yapıları\MYAZ204206\DataStructures\Lİnkedlist\bin\Debug\net6.0\Linkedlist.dll
+C:\Users\Menemen\Desktop\veri_yapıları\MYAZ204206\DataStructures\Lİnkedlist\bin\Debug\net6.0\Linkedlist.pdb
+C:\Users\Menemen\Desktop\veri_yapıları\MYAZ204206\DataStructures\Lİnkedlist\obj\Debug\net6.0\Linkedlist.csproj.AssemblyReference.cache
+C:\Users\Menemen\Desktop\veri_yapıları\MYAZ204206\DataStructures\Lİnkedlist\obj\Debug\net6.0\Linkedlist.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Menemen\Desktop\veri_yapıları\MYAZ204206\DataStructures\Lİnkedlist\obj\Debug\net6.0\Linkedlist.AssemblyInfoInputs.cache
+C:\Users\Menemen\Desktop\veri_yapıları\MYAZ204206\DataStructures\Lİnkedlist\obj\Debug\net6.0\Linkedlist.AssemblyInfo.cs
+C:\Users\Menemen\Desktop\veri_yapıları\MYAZ204206\DataStructures\Lİnkedlist\obj\Debug\net6.0\Linkedlist.csproj.CoreCompileInputs.cache
+C:\Users\Menemen\Desktop\veri_yapıları\MYAZ204206\DataStructures\Lİnkedlist\obj\Debug\net6.0\Linkedlist.dll
+C:\Users\Menemen\Desktop\veri_yapıları\MYAZ204206\DataStructures\Lİnkedlist\obj\Debug\net6.0\refint\Linkedlist.dll
+C:\Users\Menemen\Desktop\veri_yapıları\MYAZ204206\DataStructures\Lİnkedlist\obj\Debug\net6.0\Linkedlist.pdb
+C:\Users\Menemen\Desktop\veri_yapıları\MYAZ204206\DataStructures\Lİnkedlist\obj\Debug\net6.0\ref\Linkedlist.dll

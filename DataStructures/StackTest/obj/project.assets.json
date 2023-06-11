@@ -6153,11 +6153,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Menemen\\Desktop\\Yeni klasör\\MYAZ204206\\DataStructures\\StackTest\\StackTest.csproj",
+      "projectUniqueName": "C:\\Users\\Menemen\\Desktop\\veri_yapıları\\MYAZ204206\\DataStructures\\StackTest\\StackTest.csproj",
       "projectName": "StackTest",
-      "projectPath": "C:\\Users\\Menemen\\Desktop\\Yeni klasör\\MYAZ204206\\DataStructures\\StackTest\\StackTest.csproj",
+      "projectPath": "C:\\Users\\Menemen\\Desktop\\veri_yapıları\\MYAZ204206\\DataStructures\\StackTest\\StackTest.csproj",
       "packagesPath": "C:\\Users\\Menemen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Menemen\\Desktop\\Yeni klasör\\MYAZ204206\\DataStructures\\StackTest\\obj\\",
+      "outputPath": "C:\\Users\\Menemen\\Desktop\\veri_yapıları\\MYAZ204206\\DataStructures\\StackTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Menemen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6174,8 +6174,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Menemen\\Desktop\\Yeni klasör\\MYAZ204206\\DataStructures\\Stackk\\Stackk.csproj": {
-              "projectPath": "C:\\Users\\Menemen\\Desktop\\Yeni klasör\\MYAZ204206\\DataStructures\\Stackk\\Stackk.csproj"
+            "C:\\Users\\Menemen\\Desktop\\veri_yapıları\\MYAZ204206\\DataStructures\\Stackk\\Stackk.csproj": {
+              "projectPath": "C:\\Users\\Menemen\\Desktop\\veri_yapıları\\MYAZ204206\\DataStructures\\Stackk\\Stackk.csproj"
             }
           }
         }
