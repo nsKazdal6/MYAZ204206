@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Menemen\\Desktop\\VeriYapıları\\MYAZ204206\\DataStructures\\Array\\Array.csproj",
+      "projectUniqueName": "C:\\Users\\Menemen\\Desktop\\Yeni klasör\\MYAZ204206\\DataStructures\\Array\\Array.csproj",
       "projectName": "Array",
-      "projectPath": "C:\\Users\\Menemen\\Desktop\\VeriYapıları\\MYAZ204206\\DataStructures\\Array\\Array.csproj",
+      "projectPath": "C:\\Users\\Menemen\\Desktop\\Yeni klasör\\MYAZ204206\\DataStructures\\Array\\Array.csproj",
       "packagesPath": "C:\\Users\\Menemen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Menemen\\Desktop\\VeriYapıları\\MYAZ204206\\DataStructures\\Array\\obj\\",
+      "outputPath": "C:\\Users\\Menemen\\Desktop\\Yeni klasör\\MYAZ204206\\DataStructures\\Array\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Menemen\\AppData\\Roaming\\NuGet\\NuGet.Config",

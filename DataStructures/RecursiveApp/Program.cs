@@ -80,6 +80,52 @@ void recursive_traversal(LinkedListNode<int> node)
     
 }
 
+//iteration ile fibonacci hesabı
+
+int iter_fibonacci(int n)
+{
+    int a = 0;
+    int b = 1;
+    if (n == 0)
+    {
+        return 0;
+    }
+    if (n == 1)
+    {
+        return 1;
+    }
+    for (int i = 0; i < n; i++)
+    {
+        int temp = a;
+        a = b;
+        b = temp + b;
+    }
+
+    return a;
+}
+
+//recursive ile fibonacci hesabı
+
+int recursive_fibonacci(int n)
+{
+    if (n == 0)
+    {
+        return 0;
+    }
+    else if (n == 1)
+    {
+        return 1;
+    }
+    else
+    {
+        return recursive_fibonacci(n - 1) + recursive_fibonacci(n - 2);
+    }
+}
+
+
+
+
+
 LinkedList<int> list = new LinkedList<int>(new int[] { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 });
 int n = 5;
 Console.WriteLine("iteration sum: " + iter_sum(n));
@@ -89,4 +135,5 @@ Console.WriteLine("recursive fact: " + recursive_fact(n));
 iter_traversal(list.First);
 Console.Write("\nrecursive traversal: ");
 recursive_traversal(list.First);
-
+Console.WriteLine("\niteration fibonacci: " + iter_fibonacci(7));
+Console.WriteLine("recursive fibonacci: " + recursive_fibonacci(7));

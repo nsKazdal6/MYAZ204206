@@ -6171,11 +6171,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Menemen\\Desktop\\VeriYapıları\\MYAZ204206\\DataStructures\\SinglyLinkedListTest\\SinglyLinkedListTests.csproj",
+      "projectUniqueName": "C:\\Users\\Menemen\\Desktop\\Yeni klasör\\MYAZ204206\\DataStructures\\SinglyLinkedListTest\\SinglyLinkedListTests.csproj",
       "projectName": "SinglyLinkedListTests",
-      "projectPath": "C:\\Users\\Menemen\\Desktop\\VeriYapıları\\MYAZ204206\\DataStructures\\SinglyLinkedListTest\\SinglyLinkedListTests.csproj",
+      "projectPath": "C:\\Users\\Menemen\\Desktop\\Yeni klasör\\MYAZ204206\\DataStructures\\SinglyLinkedListTest\\SinglyLinkedListTests.csproj",
       "packagesPath": "C:\\Users\\Menemen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Menemen\\Desktop\\VeriYapıları\\MYAZ204206\\DataStructures\\SinglyLinkedListTest\\obj\\",
+      "outputPath": "C:\\Users\\Menemen\\Desktop\\Yeni klasör\\MYAZ204206\\DataStructures\\SinglyLinkedListTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Menemen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6192,11 +6192,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Menemen\\Desktop\\VeriYapıları\\MYAZ204206\\DataStructures\\ListTests\\ListTests.csproj": {
-              "projectPath": "C:\\Users\\Menemen\\Desktop\\VeriYapıları\\MYAZ204206\\DataStructures\\ListTests\\ListTests.csproj"
+            "C:\\Users\\Menemen\\Desktop\\Yeni klasör\\MYAZ204206\\DataStructures\\ListTests\\ListTests.csproj": {
+              "projectPath": "C:\\Users\\Menemen\\Desktop\\Yeni klasör\\MYAZ204206\\DataStructures\\ListTests\\ListTests.csproj"
             },
-            "C:\\Users\\Menemen\\Desktop\\VeriYapıları\\MYAZ204206\\DataStructures\\Lİnkedlist\\Linkedlist.csproj": {
-              "projectPath": "C:\\Users\\Menemen\\Desktop\\VeriYapıları\\MYAZ204206\\DataStructures\\Lİnkedlist\\Linkedlist.csproj"
+            "C:\\Users\\Menemen\\Desktop\\Yeni klasör\\MYAZ204206\\DataStructures\\Lİnkedlist\\Linkedlist.csproj": {
+              "projectPath": "C:\\Users\\Menemen\\Desktop\\Yeni klasör\\MYAZ204206\\DataStructures\\Lİnkedlist\\Linkedlist.csproj"
             }
           }
         }

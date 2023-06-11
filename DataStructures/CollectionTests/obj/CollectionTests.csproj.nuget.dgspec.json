@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Menemen\\Desktop\\VeriYapıları\\MYAZ204206\\DataStructures\\CollectionTests\\CollectionTests.csproj": {}
+    "C:\\Users\\Menemen\\Desktop\\Yeni klasör\\MYAZ204206\\DataStructures\\CollectionTests\\CollectionTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Menemen\\Desktop\\VeriYapıları\\MYAZ204206\\DataStructures\\CollectionTests\\CollectionTests.csproj": {
+    "C:\\Users\\Menemen\\Desktop\\Yeni klasör\\MYAZ204206\\DataStructures\\CollectionTests\\CollectionTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Menemen\\Desktop\\VeriYapıları\\MYAZ204206\\DataStructures\\CollectionTests\\CollectionTests.csproj",
+        "projectUniqueName": "C:\\Users\\Menemen\\Desktop\\Yeni klasör\\MYAZ204206\\DataStructures\\CollectionTests\\CollectionTests.csproj",
         "projectName": "CollectionTests",
-        "projectPath": "C:\\Users\\Menemen\\Desktop\\VeriYapıları\\MYAZ204206\\DataStructures\\CollectionTests\\CollectionTests.csproj",
+        "projectPath": "C:\\Users\\Menemen\\Desktop\\Yeni klasör\\MYAZ204206\\DataStructures\\CollectionTests\\CollectionTests.csproj",
         "packagesPath": "C:\\Users\\Menemen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Menemen\\Desktop\\VeriYapıları\\MYAZ204206\\DataStructures\\CollectionTests\\obj\\",
+        "outputPath": "C:\\Users\\Menemen\\Desktop\\Yeni klasör\\MYAZ204206\\DataStructures\\CollectionTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Menemen\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CFsmwKwP2dTEK366OSdC+gpdgqCUjP9Efm3/0icWAIxb1lXTAIEkRRJPX1iwWI5eLmBBJ9qqLckLIYMNYqqmGQ==",
+  "dgSpecHash": "eUpNyaT44R64DbyDLGP8030hE6yoMzkUmiwrbG6rve/S00vwtR7tWxWoHu78YgnwZNx2Jl1lMYkDrTLqx1b+1g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Menemen\\Desktop\\VeriYapıları\\MYAZ204206\\DataStructures\\QueueTests\\QueueTests.csproj",
+  "projectFilePath": "C:\\Users\\Menemen\\Desktop\\Yeni klasör\\MYAZ204206\\DataStructures\\QueueTests\\QueueTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Menemen\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\Menemen\\.nuget\\packages\\microsoft.codecoverage\\17.3.2\\microsoft.codecoverage.17.3.2.nupkg.sha512",
