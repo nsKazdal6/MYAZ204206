@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Ultilities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Ultilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ultilities.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Ultilities/1.0.0": {
+      "type": "project",
+      "path": "../Ultilities/Ultilities.csproj",
+      "msbuildProject": "../Ultilities/Ultilities.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Ultilities >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Menemen\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Menemen\\Desktop\\veri_yapıları\\MYAZ204206\\DataStructures\\Ultilities\\Ultilities.csproj": {
+              "projectPath": "C:\\Users\\Menemen\\Desktop\\veri_yapıları\\MYAZ204206\\DataStructures\\Ultilities\\Ultilities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

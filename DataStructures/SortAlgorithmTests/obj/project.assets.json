@@ -1812,11 +1812,24 @@
       "SortAlgorithm/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Ultilities": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/SortAlgorithm.dll": {}
         },
         "runtime": {
           "bin/placeholder/SortAlgorithm.dll": {}
+        }
+      },
+      "Ultilities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Ultilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ultilities.dll": {}
         }
       }
     }
@@ -6118,6 +6131,11 @@
       "type": "project",
       "path": "../SortAlgorithm/SortAlgorithm.csproj",
       "msbuildProject": "../SortAlgorithm/SortAlgorithm.csproj"
+    },
+    "Ultilities/1.0.0": {
+      "type": "project",
+      "path": "../Ultilities/Ultilities.csproj",
+      "msbuildProject": "../Ultilities/Ultilities.csproj"
     }
   },
   "projectFileDependencyGroups": {

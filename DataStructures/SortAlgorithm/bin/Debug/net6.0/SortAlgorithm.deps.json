@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "SortAlgorithm/1.0.0": {
+        "dependencies": {
+          "Ultilities": "1.0.0"
+        },
         "runtime": {
           "SortAlgorithm.dll": {}
+        }
+      },
+      "Ultilities/1.0.0": {
+        "runtime": {
+          "Ultilities.dll": {}
         }
       }
     }
   },
   "libraries": {
     "SortAlgorithm/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ultilities/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

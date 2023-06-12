@@ -1,34 +1,17 @@
-﻿namespace SortAlgorithm
+﻿using System;
+
+namespace SortAlgorithm
 {
-    public class BubbleSort<T> where T : IComparable<T>
+    public class BubbleSort
     {
-        public static void Sort( T[] list)
+        public static void Sort<T>(T[] arr)
+            where T : IComparable<T>
         {
-            bool isSorted = true;
-            for (int i = 0; i < list.Length; i++)
-            {
-                for (int j = 0; j < list.Length-i-1; j++)
-                {
-                    if (list[j].CompareTo(list[j + 1]) > 0)
-                    {
-                        Swap(ref list[j], ref list[j + 1]);
-                        isSorted = false;
-                    }
-                }
-                if (isSorted==true)
-                {
-                    break;
-                }
-            }
-            
-        }
-
-
-        private static void Swap(ref T x, ref T y)
-        {
-            var temp = x; 
-            x = y;
-            y = temp;
+            int n = arr.Length;
+            for (int i = 0; i < n - 1; i++)
+                for (int j = 0; j < n - i - 1; j++)
+                    if (arr[j].CompareTo(arr[j + 1]) >= 1)
+                        Sorting.Swap(arr, j, j + 1);
         }
     }
 }

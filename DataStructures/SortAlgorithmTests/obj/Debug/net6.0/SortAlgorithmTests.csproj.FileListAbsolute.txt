@@ -100,3 +100,5 @@ C:\Users\Menemen\Desktop\veri_yapıları\MYAZ204206\DataStructures\SortAlgorithm
 C:\Users\Menemen\Desktop\veri_yapıları\MYAZ204206\DataStructures\SortAlgorithmTests\obj\Debug\net6.0\SortAlgorithmTests.pdb
 C:\Users\Menemen\Desktop\veri_yapıları\MYAZ204206\DataStructures\SortAlgorithmTests\obj\Debug\net6.0\SortAlgorithmTests.genruntimeconfig.cache
 C:\Users\Menemen\Desktop\veri_yapıları\MYAZ204206\DataStructures\SortAlgorithmTests\obj\Debug\net6.0\ref\SortAlgorithmTests.dll
+C:\Users\Menemen\Desktop\veri_yapıları\MYAZ204206\DataStructures\SortAlgorithmTests\bin\Debug\net6.0\Ultilities.dll
+C:\Users\Menemen\Desktop\veri_yapıları\MYAZ204206\DataStructures\SortAlgorithmTests\bin\Debug\net6.0\Ultilities.pdb

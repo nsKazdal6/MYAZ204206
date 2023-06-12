@@ -1091,8 +1091,16 @@
       },
       "xunit.runner.visualstudio/2.4.5": {},
       "SortAlgorithm/1.0.0": {
+        "dependencies": {
+          "Ultilities": "1.0.0"
+        },
         "runtime": {
           "SortAlgorithm.dll": {}
+        }
+      },
+      "Ultilities/1.0.0": {
+        "runtime": {
+          "Ultilities.dll": {}
         }
       }
     }
@@ -1748,6 +1756,11 @@
       "hashPath": "xunit.runner.visualstudio.2.4.5.nupkg.sha512"
     },
     "SortAlgorithm/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ultilities/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

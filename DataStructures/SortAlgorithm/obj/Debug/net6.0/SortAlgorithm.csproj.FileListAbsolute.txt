@@ -10,3 +10,6 @@ C:\Users\Menemen\Desktop\veri_yapıları\MYAZ204206\DataStructures\SortAlgorithm
 C:\Users\Menemen\Desktop\veri_yapıları\MYAZ204206\DataStructures\SortAlgorithm\obj\Debug\net6.0\refint\SortAlgorithm.dll
 C:\Users\Menemen\Desktop\veri_yapıları\MYAZ204206\DataStructures\SortAlgorithm\obj\Debug\net6.0\SortAlgorithm.pdb
 C:\Users\Menemen\Desktop\veri_yapıları\MYAZ204206\DataStructures\SortAlgorithm\obj\Debug\net6.0\ref\SortAlgorithm.dll
+C:\Users\Menemen\Desktop\veri_yapıları\MYAZ204206\DataStructures\SortAlgorithm\bin\Debug\net6.0\Ultilities.dll
+C:\Users\Menemen\Desktop\veri_yapıları\MYAZ204206\DataStructures\SortAlgorithm\bin\Debug\net6.0\Ultilities.pdb
+C:\Users\Menemen\Desktop\veri_yapıları\MYAZ204206\DataStructures\SortAlgorithm\obj\Debug\net6.0\SortAlgorithm.csproj.CopyComplete
